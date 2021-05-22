@@ -1,0 +1,82 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/2020.3.3f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/u/Files/Repositories/github.com/is8r_unity/example-MethodCaller
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51279
+Successfully changed project path to: /Users/u/Files/Repositories/github.com/is8r_unity/example-MethodCaller
+/Users/u/Files/Repositories/github.com/is8r_unity/example-MethodCaller
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 24.15 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.3f1 (76626098c1c4)
+[Subsystems] Discovering subsystems at path /Applications/Unity/2020.3.3f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/u/Files/Repositories/github.com/is8r_unity/example-MethodCaller/Assets
+GfxDevice: creating device client; threaded=0
+2021-05-22 17:00:02.604 Unity[54059:3958781] EV2451 preferred device: Intel(R) Iris(TM) Plus Graphics (low power)
+2021-05-22 17:00:02.604 Unity[54059:3958781] Metal devices available: 1
+2021-05-22 17:00:02.604 Unity[54059:3958781] 0: Intel(R) Iris(TM) Plus Graphics (low power)
+2021-05-22 17:00:02.604 Unity[54059:3958781] Using device Intel(R) Iris(TM) Plus Graphics (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics
+Initialize mono
+Mono path[0] = '/Applications/Unity/2020.3.3f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/2020.3.3f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/2020.3.3f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56059
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/2020.3.3f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/2020.3.3f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.004221 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 20.01 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.680 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000898 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.858 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/2020.3.3f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.18 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1117 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 114.4 MB.
+System memory in use after: 114.4 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1559.
+Total: 1.904689 ms (FindLiveObjects: 0.119360 ms CreateObjectMapping: 0.028119 ms MarkObjects: 1.655285 ms  DeleteObjects: 0.100871 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/MethodCaller/Scripts/MethodCaller.cs
+  artifactKey: Guid(5e2aa99c1799e4950aee192c2232a68c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MethodCaller/Scripts/MethodCaller.cs using Guid(5e2aa99c1799e4950aee192c2232a68c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a977dd3ef89083019d62c3456123741c') in 0.484552 seconds
+  Import took 0.487698 seconds .
+
